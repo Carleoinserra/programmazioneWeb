@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Page</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <style>
+    /* Stile per la foto circolare */
+    .profile-pic {
+      border-radius: 50%;
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-4 offset-md-4 text-center">
+        <!-- Foto circolare -->
+        <img src="https://via.placeholder.com/200" alt="Profile Picture" class="profile-pic img-fluid mb-3">
+        <h2>Il mio profilo</h2>
+        <!-- Lista puntata 1 -->
+        <ul class="list-group mb-3">
+          <li class="list-group-item">Punto 1</li>
+          <li class="list-group-item">Punto 2</li>
+          <li class="list-group-item">Punto 3</li>
+        </ul>
+        <!-- Lista puntata 2 -->
+        <ul class="list-group mb-3">
+          <li class="list-group-item">Punto 4</li>
+          <li class="list-group-item">Punto 5</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-center text-white py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <!-- Icone Font Awesome per GitHub e LinkedIn -->
+          <a href="https://github.com/" target="_blank" class="text-white mr-3">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/" target="_blank" class="text-white">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JavaScript e jQuery (necessari per il funzionamento di Bootstrap) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
