@@ -9,6 +9,8 @@
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
   <!-- Font Awesome -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <link rel="icon" href="logo.png">
+
   <style>
     /* Stile per la foto circolare */
     .profile-pic {
@@ -17,11 +19,30 @@
       height: 200px;
       object-fit: cover;
     }
+    .navbar img {
+        max-width: 5%;
+    }
   </style>
 </head>
 
 <body>
-
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <img src="logo.png">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="angular.html">Angular</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
   <div class="container mt-5">
     <div class="row">
       <div class="col-md-4 offset-md-4 text-center">
@@ -83,16 +104,17 @@
           
           <li class="list-group-item"><a href = "https://docs.google.com/presentation/d/1TIIuNmbJJ5b37-KhIOg2T1h3EKjaKgTYbcWkeImznXA/edit?usp=sharing">Link alle slides</a></li>
            </ul>
-          <ul class="list-group mb-3">
-           Gli oggetti 
-          <li class="list-group-item">Concetto di oggetto</li>
-          <li class="list-group-item">Creazione di una classe</li>
-          <li class="list-group-item">Il costruttore</li>
-          <li class="list-group-item">La parola chiave this</li>
-          <li class="list-group-item">Istanze di un oggetto</li>
-          <li class="list-group-item">Metodi di un oggetto</li>  
-            <li class="list-group-item"><a href = "https://docs.google.com/presentation/d/1lXGF8ImJbPZSJmWXVMwOh2vXtiFilf_R5Y-IN3ZGxnw/edit?usp=sharing">Link alle slides</a></li>
-           </ul>
+           <ul class="list-group mb-3">
+            Gli oggetti 
+           <li class="list-group-item">Concetto di oggetto</li>
+           <li class="list-group-item">Creazione di una classe</li>
+           <li class="list-group-item">Il costruttore</li>
+           <li class="list-group-item">La parola chiave this</li>
+           <li class="list-group-item">Istanze di un oggetto</li>
+           <li class="list-group-item">Metodi di un oggetto</li>  
+             <li class="list-group-item"><a href = "https://docs.google.com/presentation/d/1lXGF8ImJbPZSJmWXVMwOh2vXtiFilf_R5Y-IN3ZGxnw/edit?usp=sharing">Link alle slides</a></li>
+            </ul>
+
       </div>
     </div>
   </div>
